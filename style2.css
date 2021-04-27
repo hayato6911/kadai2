@@ -30,6 +30,7 @@ body {
   display: flex;
   justify-content: space-between;
   height: 40px; 
+}
 
 
 .header-logo>.header-logo-pc {
@@ -241,8 +242,6 @@ body {
 
 
 /*メイン*/
-/*メイン*/
-/*メイン*/
 
 .main-section.course-detail {
     background-color: #fcfaf5;
@@ -319,7 +318,7 @@ body {
 }
 }
 
-/*全コースの共通POINTン*/
+/*全コースの共通*/
 
 .detail-point img {
     width: 100%;
@@ -528,6 +527,7 @@ body {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+
 .plan-head br {
     display: none;
 }
@@ -812,8 +812,6 @@ a:hover .hover-scale {
 
 
 /*フッダー*/
-/*フッダー*/
-/*フッダー*/
 
 .site-footer {
 padding-top: 80px;
@@ -832,10 +830,12 @@ background-color: #f79314;
     box-shadow: 0 12px 30px -15px;
     transition: 0.2s;
 }
+
 .page-top-button.contents-tidy {
     align-items: center;
     justify-content: center;
 }
+
 .page-top-arrow {
     display: inline-block;
     height: 10px;
@@ -854,9 +854,11 @@ background-color: #f79314;
     margin-top: 0px;
     padding-left: 0px;
 }
+
 .footer-nav li{
     list-style: none;
 }
+
 .footer-nav-item {
     font-size: 16px;
     font-weight: bold;
@@ -873,13 +875,16 @@ background-color: #f79314;
     order: 3;
     align-self: flex-end; 
 }
+
 .footer-character > img {
     width: auto;
     height: 70px;
 }
+
 .footer-info {
     color: #fff;
 }
+
  .site-footer-main .footer-info {
     order: 1;
     margin-left: -200px;
@@ -890,6 +895,7 @@ background-color: #f79314;
   width: 284px;
   height: 30px;
 }
+
 .footer-info .footer-company, .footer-info .footer-address {
     font-size: 16px;
     font-weight: bold;
@@ -901,6 +907,7 @@ background-color: #f79314;
     list-style: none;
     padding-left: 0px;
 }
+
 .footer-info .footer-social-item > img {
     width: 60px;
     height: 60px;
@@ -920,18 +927,22 @@ background-color: #f79314;
     display: block;
     text-align: center;
 }
+
 .footer-info {
     margin-right:-200px;
     margin-top: 30px;
     padding-top: 30px;
     border-top: 1px solid #fff;
 }
+
 .footer-nav {
     text-align: left;
 }
+
 .footer-social {
   justify-content: center;
 }
+
 .footer-copyright {
     display: block;
     text-align: center;
